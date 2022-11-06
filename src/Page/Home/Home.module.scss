@@ -1,0 +1,121 @@
+.wrapper {
+    background-color: var(--black);
+    width: 100%;
+    height: 651px;
+}
+.inner {
+    height: 100%;
+    padding-top: 30px;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20rem;
+    color: var(--white);
+    animation: upDown 1s linear infinite;
+}
+.job {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--white);
+    display: flex;
+
+    span {
+        animation: fontW 2s linear infinite;
+    }
+    p {
+        animation: fontW 2.2s linear infinite;
+    }
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes fontW {
+    0% {
+        font-weight: 100;
+    }
+    50% {
+        font-weight: bold;
+    }
+    100% {
+        font-weight: 100;
+    }
+}
+.gradient {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
