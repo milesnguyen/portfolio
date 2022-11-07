@@ -9,8 +9,7 @@ const cx = classNames.bind(styles);
 function Portfolio() {
     return (
         <>
-            <DefaultLayout />{' '}
-            <div className={cx('wrapper')}>
+            <DefaultLayout>
                 <div className={cx('inner')}>
                     <div className={cx('content')}>
                         <img
@@ -55,10 +54,9 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </DefaultLayout>
         </>
     );
 }
 
 export default Portfolio;
-<img src="https://img.upanh.tv/2022/11/07/image93e55b5f940a558f.png" alt="image93e55b5f940a558f.png" border="0" />;

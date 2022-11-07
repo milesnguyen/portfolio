@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: var(--black);
+    width: 100%;
+    min-height: var(--default-layout-height);
+    padding-top: 60px;
+}
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    animation: var(--flip);
+}

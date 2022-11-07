@@ -18,18 +18,23 @@ function Header() {
                 </div>
                 <div className={cx('inner')}>
                     <ul className={cx('item')}>
+                        <div className={cx('line')}></div>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/'}>
                             Home
                         </NavLink>
+                        <div className={cx('line')}></div>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/about'}>
                             About
                         </NavLink>
+                        <div className={cx('line')}></div>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/portfolio'}>
                             Portfolio
                         </NavLink>
+                        <div className={cx('line')}></div>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/skill'}>
                             Skill
                         </NavLink>
+                        <div className={cx('line')}></div>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/Contact'}>
                             Contact
                         </NavLink>

@@ -7,8 +7,7 @@ const cx = classNames.bind(styles);
 function About() {
     return (
         <>
-            <DefaultLayout />
-            <div className={cx('wrapper')}>
+            <DefaultLayout>
                 <div className={cx('inner')}>
                     <div className={cx('content')}>
                         <div className={cx('img')}></div>
@@ -27,7 +26,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </DefaultLayout>
         </>
     );
 }
