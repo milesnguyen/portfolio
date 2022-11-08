@@ -7,7 +7,7 @@
     justify-content: center;
     font-weight: bold;
     font-size: 18rem;
-    color: var(--white);
+    color: var(--extra-color);
     animation: upDown 1s linear infinite;
     cursor: pointer;
 }
@@ -17,7 +17,7 @@
     justify-content: center;
     font-weight: 100;
     font-size: 4rem;
-    color: var(--white);
+    color: var(--extra-color);
     display: flex;
 
     span {
@@ -26,6 +26,23 @@
     p {
         animation: fontW 2.2s linear infinite;
     }
+}
+
+// Responsive
+
+@media (max-width: 46.1875em) {
+    .head {
+        font-size: 10rem;
+    }
+}
+/* PC */
+@media (min-width: 1024px) {
+}
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em) {
+}
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
 }
 
 @keyframes upDown {

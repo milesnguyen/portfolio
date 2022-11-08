@@ -1,0 +1,28 @@
+.toggleBtn {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 111px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--extra-color);
+    padding: 10px 20px;
+
+    .icon {
+        color: var(--extra-color);
+        padding: 8px;
+    }
+    .switchBtn {
+        border: 1px solid var(--extra-color);
+    }
+    button {
+        background-color: transparent;
+        padding: 8px;
+        font-size: 3rem;
+        color: var(--extra-color);
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
