@@ -1,14 +1,12 @@
 .wrapper {
     background-color: var(--main-color);
-    width: var(--default-layout-width);
     min-height: var(--default-layout-height);
-    padding-top: 60px;
+    display: flex;
+    justify-content: center;
 }
 .inner {
-    width: var(--default-layout-width);
-    margin: 0 auto;
+    width: 80%;
     height: 100%;
-    margin: 0 auto;
     padding-top: 30px;
     animation: var(--flip);
 }
@@ -17,11 +15,12 @@
 
 @media (max-width: 46.1875em) {
     .wrapper {
-        max-width: 46.1875em;
-        width: 100%;
-        min-width: 400px;
-        max-height: var(--default-layout-height);
-        min-height: 900px;
+        width: auto;
+        max-width: 412px;
+        min-width: 375px;
+        height: auto;
+        max-height: 1000px;
+        min-height: 915px;
     }
 }
 /* PC */
@@ -32,4 +31,12 @@
 }
 /* TABLET */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .wrapper {
+        width: auto;
+        max-width: 412px;
+        min-width: 900px;
+        height: auto;
+        max-height: 1180px;
+        min-height: 1024px;
+    }
 }

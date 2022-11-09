@@ -1,5 +1,5 @@
 .toggleBtn {
-    position: absolute;
+    position: fixed;
     right: 10px;
     top: 30px;
     width: 111px;
@@ -25,4 +25,21 @@
         cursor: pointer;
         border-radius: 50%;
     }
+}
+
+@media (max-width: 46.1875em) {
+    .toggleBtn {
+        right: 5px;
+        bottom: 60px;
+        top: unset;
+    }
+}
+/* PC */
+@media (min-width: 1024px) {
+}
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em) {
+}
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
 }

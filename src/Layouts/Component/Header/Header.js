@@ -1,3 +1,5 @@
+import { faCode, faEnvelope, faFileCode, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.scss';
@@ -11,23 +13,38 @@ function Header() {
                 <div className={cx('inner')}>
                     <ul className={cx('item')}>
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/'}>
-                            Home
+                            <p>Home</p>
+                            <span>
+                                <FontAwesomeIcon icon={faHome} />
+                            </span>
                         </NavLink>
 
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/about'}>
-                            About
+                            <p>About</p>
+                            <span>
+                                <FontAwesomeIcon icon={faUser} />
+                            </span>
                         </NavLink>
 
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/portfolio'}>
-                            Portfolio
+                            <p>Portfolio</p>
+                            <span>
+                                <FontAwesomeIcon icon={faFileCode} />
+                            </span>
                         </NavLink>
 
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/skill'}>
-                            Skill
+                            <p>Skill</p>
+                            <span>
+                                <FontAwesomeIcon icon={faCode} />
+                            </span>
                         </NavLink>
 
                         <NavLink className={(nav) => cx('link', { active: nav.isActive })} to={'/Contact'}>
-                            Contact
+                            <p>Contact</p>
+                            <span>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                            </span>
                         </NavLink>
                     </ul>
                 </div>
