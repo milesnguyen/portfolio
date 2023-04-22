@@ -7,6 +7,7 @@
     height: 500px;
 }
 .item {
+    min-width: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
