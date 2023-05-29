@@ -1,7 +1,7 @@
 .wrapper {
-    background-color: var(--main-color);
-    min-height: var(--default-layout-height);
     display: flex;
+    min-height: auto;
+    position: relative;
     justify-content: center;
 }
 .inner {

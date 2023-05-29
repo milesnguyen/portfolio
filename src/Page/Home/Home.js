@@ -11,7 +11,7 @@ function Home() {
             <DefaultLayout>
                 <div className={cx('inner')}>
                     <div className={cx('head')}>
-                        <span className={cx('gradient')}>Thinh</span>
+                        <span className={cx('gradient')}>Miles</span>
                     </div>
                     <div className={cx('job')}>
                         <span>Front</span>
