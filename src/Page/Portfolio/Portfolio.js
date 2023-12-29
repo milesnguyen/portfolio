@@ -53,6 +53,48 @@ function Portfolio() {
                             </button>
                         </div>
                     </div>
+                    <div className={cx('content')}>
+                        <img
+                            src="https://i.upanh.org/2023/12/29/Capturebed3db22a4ecdac2.png"
+                            alt="Capturebed3db22a4ecdac2.png"
+                            border="0"
+                        />
+                        <div className={cx('item')}>
+                            <span>
+                                <p>
+                                    <FontAwesomeIcon icon={faCode} />
+                                </p>
+                                HTML, CSS
+                            </span>
+                            <h1>Shopee Clone</h1>
+                            <button>
+                                <a href="https://milesnguyen.github.io/shopee/" target="_blank">
+                                    View More
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div className={cx('content')}>
+                        <img
+                            src="https://i.upanh.org/2023/12/29/image4a9ae154f677ee40.png"
+                            alt="image4a9ae154f677ee40.png"
+                            border="0"
+                        />
+                        <div className={cx('item')}>
+                            <span>
+                                <p>
+                                    <FontAwesomeIcon icon={faCode} />
+                                </p>
+                                HTML, CSS
+                            </span>
+                            <h1>The Band Clone</h1>
+                            <button>
+                                <a href="https://milesnguyen.github.io/the-band/" target="_blank">
+                                    View More
+                                </a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </DefaultLayout>
         </>
